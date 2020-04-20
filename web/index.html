@@ -817,8 +817,12 @@
                         <li><i class="fas fa-map-marker-alt"></i>22 Innovative, San Francisco, CA 94043, US</li>
                         <li><i class="fas fa-phone"></i><a class="blue" href="tel:003024630820">+81 720 2212</a></li>
                         <li><i class="fas fa-envelope"></i><a class="blue" href="mailto:office@leno.com">office@leno.com</a></li>
-                        <form action="http://formspree.io/you@email.com"><input type="email" name="_replyto"><textarea   name="body"></textarea><input type="submit" value="Send"></form> 
-                        <!-- https://stackoverflow.com/questions/24348223/send-email-from-static-page-hosted-on-github-pages -->
+                         <!-- https://stackoverflow.com/questions/24348223/send-email-from-static-page-hosted-on-github-pages -->
+                        <form action="http://formspree.io/you@email.com" method="POST">
+                            <input type="email" name="_replyto">
+                            <textarea name="body"></textarea>
+                            <input type="submit" value="Send">
+                        </form>
                     </ul>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
