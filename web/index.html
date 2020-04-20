@@ -829,10 +829,12 @@
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">SUBMIT MESSAGE</button>
+                            <button type="submit" class="form-control-submit-button">NACHRICHT ABSCHICKEN</button>
                         </div>
                         <div class="form-message">
-                            <div id="cmsgSubmit" class="h3 text-center hidden"></div>
+                            <div id="cmsgSubmit" class="h3 text-center hidden">
+                              <input type="hidden" value="feedback" name="tag">
+                            </div>
                         </div>
                     </form>
                     <!-- end of contact form -->
@@ -867,7 +869,7 @@
                         </div>
                         <div class="form-message">
                             <div id="cmsgSubmit" class="h3 text-center hidden">
-                              <input type="hidden" value="yes" name="newsletter">
+                              <input type="hidden" value="newsletter" name="tag">
                             </div>
                         </div>
                     </form>
