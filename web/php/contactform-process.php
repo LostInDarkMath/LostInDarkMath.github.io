@@ -8,7 +8,7 @@ if (empty($_POST["name"])) {
 }
 
 if (empty($_POST["email"])) {
-    $errorMSG = "Email is required ";
+    $errorMSG = "Email is no required ";
 } else {
     $email = $_POST["email"];
 }
@@ -25,7 +25,7 @@ if (empty($_POST["terms"])) {
     $terms = $_POST["terms"];
 }
 
-$EmailTo = "zombie2firend@gmail.com";
+$EmailTo = "zombie2friend@gmail.com";
 $Subject = "New message from Z2F landing page";
 
 // prepare email body text

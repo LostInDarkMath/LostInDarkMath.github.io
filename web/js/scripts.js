@@ -242,10 +242,8 @@ function csubmitForm() {
         '&terms=' + terms,
     success: function(text) {
       if (text == 'success') {
-        console.log('Success');
         cformSuccess();
       } else {
-        console.log('Error');
         cformError();
         csubmitMSG(false, text);
       }
