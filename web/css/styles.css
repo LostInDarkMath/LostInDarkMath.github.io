@@ -777,6 +777,7 @@ input[type='checkbox'] {
 
 .header h1 {
 	margin-bottom: 1rem;
+	text-align: center;
 }
 
 .header #js-rotating {
@@ -785,6 +786,14 @@ input[type='checkbox'] {
 
 .header .p-large {
 	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.header .img-fluid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .header .btn-solid-lg {
