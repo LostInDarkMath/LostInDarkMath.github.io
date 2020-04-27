@@ -87,21 +87,25 @@
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#contact">KONTAKT</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#newsletter">NEWSLETTER</a>
+                </li>
             </ul>
-            <span class="nav-item social-icons">
-                <span class="fa-stack">
-                    <a href="#your-link">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-facebook-f fa-stack-1x"></i>
-                    </a>
-                </span>
-                <span class="fa-stack">
-                    <a href="#your-link">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-twitter fa-stack-1x"></i>
-                    </a>
-                </span>
-            </span>
+            <!-- SOCIAL MEDIA ZEICHEN -->
+            <!-- <span class="nav-item social-icons"> -->
+                <!-- <span class="fa-stack"> -->
+                    <!-- <a href="#your-link"> -->
+                        <!-- <i class="fas fa-circle fa-stack-2x"></i> -->
+                        <!-- <i class="fab fa-facebook-f fa-stack-1x"></i> -->
+                    <!-- </a> -->
+                <!-- </span> -->
+                <!-- <span class="fa-stack"> -->
+                    <!-- <a href="#your-link"> -->
+                        <!-- <i class="fas fa-circle fa-stack-2x"></i> -->
+                        <!-- <i class="fab fa-twitter fa-stack-1x"></i> -->
+                    <!-- </a> -->
+                <!-- </span> -->
+            <!-- </span> -->
         </div>
     </nav> <!-- end of navbar -->
     <!-- end of navigation -->
@@ -116,6 +120,7 @@
                         <div class="text-container">
                             <h1>EINE APP FÜR MEHR<br> <span id="js-rotating">FREUNDE, GLEICHGESINNTE, WEGGEFÄHRTEN, GEISTESVERWANDTE, MITSTREITER, SEELENVERWANDTE, HOBBYTEILER</span></h1>
                             <p class="p-large">Zombie2Friend ist eine der benutzfreundlichsten Apps, um neue Leute kennenzulernen. Sie verbindet Menschen interessenbasiert mit der individuellsten Auswahl an Interessen, die du je erlebt hast!</p>
+                            <h3>BALD VERFÜGBAR!</h3>
                             <!-- APP STORE BUTTONS -->
                             <!-- <a class="btn-solid-lg page-scroll" href="#your-link"><i class="fab fa-apple"></i>APP STORE</a> -->
                             <!-- <a class="btn-solid-lg page-scroll" href="#your-link"><i class="fab fa-google-play"></i>PLAY STORE</a> -->
@@ -855,6 +860,48 @@
     <!-- end of counter -->
     <!-- end of statistics -->
 
+    <!-- Newsletter -->
+    <div id="newsletter" class="formnews">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>NEWSLETTER</h2>
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="address">Du möchtest über den Fortschritt der App auf dem Laufenden gehalten werden? Dann hinterlasse uns deine Email!</li>
+                    </ul>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-4 offset-lg-4">
+                    
+                    <!-- Contact Form -->
+                    <!-- <form id="contactForm" data-toggle="validator" data-focus="false"> -->
+                    <form action="https://formspree.io/zombie2friend@gmail.com" method="POST">
+                        <div class="form-group">
+                            <input type="email" class="form-control-input" id="cemail" required name="_replyto">
+                            <label class="label-control" for="cemail">Email</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>Ich akzeptiere <a href="privacy-policy.html">Privatspäreregelungen</a> und <a href="terms-conditions.html">AGB</a> 
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="form-control-submit-button">NEWSLETTER ABONNIEREN</button>
+                        </div>
+                        <div class="form-message">
+                            <div id="cmsgSubmit" class="h3 text-center hidden">
+                              <input type="hidden" value="newsletter" name="tag">
+                            </div>
+                        </div>
+                    </form>
+                    <!-- end of contact form -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form -->
+    <!-- end of contact -->
 
     <!-- Contact -->
     <div id="contact" class="form">
@@ -894,7 +941,7 @@
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group checkbox">
-                            <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>I have read and agree to Leno's stated conditions in <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms Conditions</a> 
+                            <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>Ich habe die Hinweise zu <a href="privacy-policy.html">Privatsphäreregelungen</a> und <a href="terms-conditions.html">AGB</a> gelesen und akzeptiere diese.
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
@@ -903,42 +950,6 @@
                         <div class="form-message">
                             <div id="cmsgSubmit" class="h3 text-center hidden">
                               <input type="hidden" value="feedback" name="tag">
-                            </div>
-                        </div>
-                    </form>
-                    <!-- end of contact form -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>Newsletter</h2>
-                    <ul class="list-unstyled li-space-lg">
-                        <li class="address">Du möchtest unseren Newsletter abonnieren? Dann hinterlasse uns deine Email!</li>
-                    </ul>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-4 offset-lg-4">
-                    
-                    <!-- Contact Form -->
-                    <!-- <form id="contactForm" data-toggle="validator" data-focus="false"> -->
-                    <form action="https://formspree.io/zombie2friend@gmail.com" method="POST">
-                        <div class="form-group">
-                            <input type="email" class="form-control-input" id="cemail" required name="_replyto">
-                            <label class="label-control" for="cemail">Email</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group checkbox">
-                            <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>Ich akzeptiere <a href="privacy-policy.html">Privacy Policy</a> und <a href="terms-conditions.html">Terms Conditions</a> 
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">NEWSLETTER ABONNIEREN</button>
-                        </div>
-                        <div class="form-message">
-                            <div id="cmsgSubmit" class="h3 text-center hidden">
-                              <input type="hidden" value="newsletter" name="tag">
                             </div>
                         </div>
                     </form>
