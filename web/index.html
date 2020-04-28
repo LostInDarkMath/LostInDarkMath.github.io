@@ -87,9 +87,14 @@
                 <!-- end of dropdown menu -->
 
                 <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#newsletter">NEWSLETTER</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link page-scroll" href="#contact">KONTAKT</a>
                 </li>
             </ul>
+
+            <!-- SOCIAL MEDIA ZEICHEN -->
             <!--<span class="nav-item social-icons">
                 <span class="fa-stack">
                     <a href="#your-link">
@@ -102,8 +107,8 @@
                         <i class="fas fa-circle fa-stack-2x"></i>
                         <i class="fab fa-twitter fa-stack-1x"></i>
                     </a>
-                </span> -->
-            </span>
+                </span>
+            </span>  -->
         </div>
     </nav> <!-- end of navbar -->
     <!-- end of navigation -->
@@ -139,6 +144,8 @@
                                 <br><br>
                                 Das war es auch schon! Mit ganz wenig Aufwand ganz viel Erfolg - kein Swipen, kein Liken, keine Matches, kein Leistungsdruck.
                             </p>
+                            <h3>BALD VERFÜGBAR!</h3>
+
                             <!-- APP STORE BUTTONS -->
                             <!-- <a class="btn-solid-lg page-scroll" href="#your-link"><i class="fab fa-apple"></i>APP STORE</a> -->
                             <!-- <a class="btn-solid-lg page-scroll" href="#your-link"><i class="fab fa-google-play"></i>PLAY STORE</a> -->
@@ -918,6 +925,48 @@
     <!-- end of counter -->
     <!-- end of statistics -->
 
+    <!-- Newsletter -->
+    <div id="newsletter" class="formnews">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>NEWSLETTER</h2>
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="address">Du möchtest über den Fortschritt der App auf dem Laufenden gehalten werden? Dann hinterlasse uns deine Email und wir geben dir Bescheid, wenn es Neuigkeiten gibt.</li>
+                    </ul>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    
+                    <!-- Contact Form -->
+                    <!-- <form id="contactForm" data-toggle="validator" data-focus="false"> -->
+                    <form action="https://formspree.io/zombie2friend@gmail.com" method="POST">
+                        <div class="form-group">
+                            <input type="email" class="form-control-input" id="cemail" required name="_replyto">
+                            <label class="label-control" for="cemail">Email</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>Ich habe die <a href="privacy-policy.html">Datenschutzerklärung</a> gelesen und akzeptiere diese.
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="form-control-submit-button">NEWSLETTER ABONNIEREN</button>
+                        </div>
+                        <div class="form-message">
+                            <div id="cmsgSubmit" class="h3 text-center hidden">
+                              <input type="hidden" value="newsletter" name="tag">
+                            </div>
+                        </div>
+                    </form>
+                    <!-- end of contact form -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form -->
+    <!-- end of contact -->
 
     <!-- Contact -->
     <div id="contact" class="form">
@@ -926,12 +975,12 @@
                 <div class="col-lg-12">
                     <h2>KONTAKT</h2>
                     <ul class="list-unstyled li-space-lg">
-                        <li class="address">Hast du Fragen, Anregungen, Kritik oder Wünsche? Dann kontaktiere uns! Wir freuen uns immer über Feedback!</li>
+                        <li class="address">Zögere nicht, uns bei Interesse zu kontaktieren. Wir freuen uns auch immer über Feedback!</li>
                         <!-- Addresse -->
                         <!-- <li><i class="fas fa-map-marker-alt"></i>22 Innovative, San Francisco, CA 94043, US</li> -->
                         <!-- Telefonnummer -->
                         <!-- <li><i class="fas fa-phone"></i><a class="blue" href="tel:003024630820">+81 720 2212</a></li> -->
-                        <li><i class="fas fa-envelope"></i><a class="blue" href="zombie2friend@gmail.com">zombie2friend@gmail.com</a></li>
+                        <li><i class="fas fa-envelope"></i><a class="blue" href="mailto:office@leno.com">zombie2friend@gmail.com</a></li>
                     </ul>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -957,7 +1006,7 @@
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group checkbox">
-                            <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>I have read and agree to Leno's stated conditions in <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms Conditions</a> 
+                            <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>Ich habe die <a href="privacy-policy.html">Datenschutzerklärung</a> gelesen und akzeptiere diese.
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
@@ -966,42 +1015,6 @@
                         <div class="form-message">
                             <div id="cmsgSubmit" class="h3 text-center hidden">
                               <input type="hidden" value="feedback" name="tag">
-                            </div>
-                        </div>
-                    </form>
-                    <!-- end of contact form -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>Newsletter</h2>
-                    <ul class="list-unstyled li-space-lg">
-                        <li class="address">Du möchtest über Neuigkeiten und Fortschritte informiert werden? Dann trag' dich in unseren Newsletter ein!</li>
-                    </ul>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-4 offset-lg-4">
-                    
-                    <!-- Contact Form -->
-                    <!-- <form id="contactForm" data-toggle="validator" data-focus="false"> -->
-                    <form action="https://formspree.io/zombie2friend@gmail.com" method="POST">
-                        <div class="form-group">
-                            <input type="email" class="form-control-input" id="cemail" required name="_replyto">
-                            <label class="label-control" for="cemail">Email</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group checkbox">
-                            <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>Ich akzeptiere <a href="privacy-policy.html">Privacy Policy</a> und <a href="terms-conditions.html">Terms Conditions</a> 
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">NEWSLETTER ABONNIEREN</button>
-                        </div>
-                        <div class="form-message">
-                            <div id="cmsgSubmit" class="h3 text-center hidden">
-                              <input type="hidden" value="newsletter" name="tag">
                             </div>
                         </div>
                     </form>
