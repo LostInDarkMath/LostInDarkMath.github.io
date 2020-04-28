@@ -2144,3 +2144,24 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width width 1200px */
+
+/***********************************/
+/*     19. Description Section     */
+/***********************************/
+.basic-5 {
+	padding-top: 6.375rem;
+	padding-bottom: 3.875rem;
+	background-color: #262431;
+	background-size: cover; 
+}
+
+.basic-5 h2 {
+	margin-bottom: 1.125rem;
+	text-align: center;
+}
+
+.basic-5 .p-heading {
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
