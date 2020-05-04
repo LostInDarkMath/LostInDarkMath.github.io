@@ -780,6 +780,11 @@ input[type='checkbox'] {
 	text-align: center;
 }
 
+.header h3 {
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
 .header #js-rotating {
 	color: #40e0ee;
 }
@@ -869,7 +874,7 @@ input[type='checkbox'] {
 .tabs {
 	padding-top: 6.5rem;
 	padding-bottom: 4.25rem;
-	background-color: #262431;
+	background-color: #2f2c3d;
 }
 
 .tabs h2 {
@@ -1343,9 +1348,9 @@ input[type='checkbox'] {
 }
 
 
-/***********************/
-/*     13. Contact     */
-/***********************/
+/************************************/
+/*     13. Contact & Newsletter     */
+/************************************/
 .form {
 	padding-top: 6.25rem;
 	padding-bottom: 5.625rem;
@@ -1376,6 +1381,35 @@ input[type='checkbox'] {
 	vertical-align: 3%;
 }
 
+.formnews {
+	padding-top: 6.25rem;
+	padding-bottom: 5.625rem;
+	background-color: #262431;
+	background-size: cover; 
+}
+
+.formnews h2 {
+	margin-bottom: 1.125rem;
+	text-align: center;
+}
+
+.formnews .list-unstyled {
+	margin-bottom: 3.75rem;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	text-align: center;
+}
+
+.formnews .list-unstyled .fas,
+.formnews .list-unstyled .fab {
+	margin-right: 0.5rem;
+	font-size: 0.875rem;
+	color: #00c9db;
+}
+
+.formnews .list-unstyled .fa-phone {
+	vertical-align: 3%;
+}
 
 /**********************/
 /*     14. Footer     */
@@ -2110,3 +2144,24 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width width 1200px */
+
+/***********************************/
+/*     19. Description Section     */
+/***********************************/
+.basic-5 {
+	padding-top: 6.375rem;
+	padding-bottom: 3.875rem;
+	background-color: #262431;
+	background-size: cover; 
+}
+
+.basic-5 h2 {
+	margin-bottom: 1.125rem;
+	text-align: center;
+}
+
+.basic-5 .p-heading {
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
