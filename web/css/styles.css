@@ -786,7 +786,7 @@ input[type='checkbox'] {
 }
 
 .header .starttext {
-  font-size: calc(36px + (48 - 36) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(36px + (48 - 36) * ((100vw - 150px) / (1600 - 150)));
 }
 
 .header #js-rotating {
