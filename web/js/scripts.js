@@ -4,7 +4,6 @@
    Description: Custom JS file
 */
 
-
 (function($) {
 'use strict';
 
@@ -364,3 +363,5 @@ $('.button, a, button').mouseup(function() {
   $(this).blur();
 });
 })(jQuery);
+
+$('.starttext').fitText(0, 8);
