@@ -775,9 +775,11 @@ input[type='checkbox'] {
 	margin-bottom: 3rem;
 }
 
+.header .starttext {
+  font-size: 4.5vw;
+}
+
 .header h1 {
-  width: 100%;
-  font-size: 10vb;
 	margin-bottom: 1rem;
 	text-align: center;
 }
