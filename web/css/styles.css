@@ -786,6 +786,7 @@ input[type='checkbox'] {
 }
 
 .header #js-rotating {
+  font-size: 4.5vw;
 	color: #40e0ee;
 }
 

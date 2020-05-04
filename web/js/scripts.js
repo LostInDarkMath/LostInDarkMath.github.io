@@ -49,7 +49,6 @@ $('.navbar-nav li a').on('click', function(event) {
     $('.navbar-collapse').collapse('hide');
 });
 
-
 /* Rotating Text - Morphtext */
 $('#js-rotating').Morphext({
   // The [in] animation type. Refer to Animate.css for a list of available
@@ -364,4 +363,3 @@ $('.button, a, button').mouseup(function() {
 });
 })(jQuery);
 
-$('.starttext').fitText(0.8, {minFontSize: '12px', maxFontSize: '36px'});
