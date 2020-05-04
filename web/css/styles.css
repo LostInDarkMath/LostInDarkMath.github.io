@@ -43,7 +43,7 @@ Colors:
 /******************************/
 body,
 html {
-    width: 100%;
+  width: 100%;
 	height: 100%;
 }
 
@@ -785,8 +785,11 @@ input[type='checkbox'] {
 	text-align: center;
 }
 
+.header .starttext {
+  font-size: calc(36px + (48 - 36) * ((100vw - 300px) / (1600 - 300)));
+}
+
 .header #js-rotating {
-  font-size: 4.5vw;
 	color: #40e0ee;
 }
 
