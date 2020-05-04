@@ -4,6 +4,7 @@
    Description: Custom JS file
 */
 
+
 (function($) {
 'use strict';
 
@@ -48,6 +49,7 @@ $('.navbar-nav li a').on('click', function(event) {
   if (!$(this).parent().hasClass('dropdown'))
     $('.navbar-collapse').collapse('hide');
 });
+
 
 /* Rotating Text - Morphtext */
 $('#js-rotating').Morphext({
@@ -342,6 +344,7 @@ function psubmitMSG(valid, msg) {
   $('#pmsgSubmit').removeClass().addClass(msgClasses).text(msg);
 }
 
+
 /* Back To Top Button */
 // create the back to top button
 $('body').prepend(
@@ -361,4 +364,3 @@ $('.button, a, button').mouseup(function() {
   $(this).blur();
 });
 })(jQuery);
-
