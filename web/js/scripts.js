@@ -364,4 +364,4 @@ $('.button, a, button').mouseup(function() {
 });
 })(jQuery);
 
-$('.starttext').fitText(0, 8);
+$('.starttext').fitText(0.8, {minFontSize: '12px', maxFontSize: '36px'});
