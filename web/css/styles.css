@@ -776,7 +776,7 @@ input[type='checkbox'] {
 }
 
 .header .starttext {
-  font-size: 4.5vw;
+  font-size: calc((75vw - 4.5rem) / 10);
 }
 
 .header h1 {
