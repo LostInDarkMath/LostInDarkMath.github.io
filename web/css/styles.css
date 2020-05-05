@@ -1589,7 +1589,8 @@ a:hover.back-to-top {
 	}
 
 	h1 {
-		font: 700 3.25rem/3.75rem "Montserrat", sans-serif;
+		font: 700 3.5rem/3.75rem "Montserrat", sans-serif;
+		/* font: Dicke Schriftgröße / Zeilenabstand */
 	}
 	/* end of general styles */
 
@@ -2144,6 +2145,24 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width width 1200px */
+
+/* Media Query add by Willi */
+@media screen and (max-width: 500px){
+	h1 {
+		font: 700 1.8rem/2rem "Montserrat", sans-serif;
+		/* font: Dicke Schriftgröße / Zeilenabstand */
+	}
+
+	h2 {
+		font: 700 1.5rem/2rem "Montserrat", sans-serif;
+		/* font: Dicke Schriftgröße / Zeilenabstand */
+	}
+
+	h3 {
+		font: 700 1.4rem/2rem "Montserrat", sans-serif;
+		/* font: Dicke Schriftgröße / Zeilenabstand */
+	}
+ }
 
 /***********************************/
 /*     19. Description Section     */
