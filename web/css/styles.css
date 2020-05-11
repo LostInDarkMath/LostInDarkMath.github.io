@@ -874,7 +874,8 @@ input[type='checkbox'] {
 .tabs {
 	padding-top: 6.5rem;
 	padding-bottom: 4.25rem;
-	background-color: #2f2c3d;
+	background-color: #262431;
+	/*background-color: #2f2c3d;*/
 }
 
 .tabs h2 {
@@ -1013,7 +1014,6 @@ input[type='checkbox'] {
 .tabs #tab-3 img {
 	margin: 0 auto 3rem auto;
 }
-
 
 /*********************/
 /*     06. Video     */
@@ -2170,7 +2170,8 @@ a:hover.back-to-top {
 .basic-5 {
 	padding-top: 6.375rem;
 	padding-bottom: 3.875rem;
-	background-color: #262431;
+	/*background-color: #262431;*/
+	background-color: #2f2c3d;
 	background-size: cover; 
 }
 
@@ -2183,4 +2184,13 @@ a:hover.back-to-top {
 	margin-bottom: 2rem;
 	text-align: center;
 }
+
+/*********************/
+/*      20. USP      */
+/*********************/
+
+#usp {
+	background-color: #2f2c3d;
+}
+
 
